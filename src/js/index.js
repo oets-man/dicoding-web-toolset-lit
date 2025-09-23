@@ -1,7 +1,9 @@
 import './components/title-app';
 import './components/to-dos';
 import './components/login-element';
+import './components/auth-element';
 
+// to-dos element
 const todosContainer = document.querySelector('#todo-container');
 const todos = [
   {
@@ -30,3 +32,5 @@ const todos = [
   },
 ];
 todosContainer.setAttribute('todos', JSON.stringify(todos));
+
+// auth element
