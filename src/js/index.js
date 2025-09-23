@@ -1,5 +1,7 @@
 import './components/title-app';
 import './components/to-dos';
+import './components/my-element';
+
 const todosContainer = document.querySelector('#todo-container');
 const todos = [
   {
