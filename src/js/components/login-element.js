@@ -1,5 +1,5 @@
 import { LitElement, html, css, nothing } from 'lit';
-class MyElement extends LitElement {
+class LoginElement extends LitElement {
   static properties = {
     minPasswordLength: {
       type: Number,
@@ -58,4 +58,4 @@ class MyElement extends LitElement {
     `;
   }
 }
-customElements.define('my-element', MyElement);
+customElements.define('login-element', LoginElement);

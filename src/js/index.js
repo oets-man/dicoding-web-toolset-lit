@@ -1,6 +1,6 @@
 import './components/title-app';
 import './components/to-dos';
-import './components/my-element';
+import './components/login-element';
 
 const todosContainer = document.querySelector('#todo-container');
 const todos = [
