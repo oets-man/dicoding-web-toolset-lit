@@ -3,6 +3,7 @@ import './components/to-dos';
 import './components/login-element';
 import './components/auth-element';
 import './components/welcome-element';
+import './components/declarative-event';
 
 // to-dos element
 const todosContainer = document.querySelector('#todo-container');
