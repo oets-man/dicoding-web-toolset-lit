@@ -61,6 +61,10 @@ class WelcomeElement extends LitElement {
     console.log('updated');
     super.updated(_changedProperties);
   }
+  connectedCallback() {
+    super.connectedCallback();
+    console.log('LitElement.shadowRootOptions', LitElement.shadowRootOptions);
+  }
 }
 
 customElements.define('welcome-element', WelcomeElement);
